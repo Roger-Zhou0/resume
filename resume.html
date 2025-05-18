@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuang Zhou – Resume</title>
+  <style>
+    /* Basic Reset / Box-Sizing */
+    html {
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
+
+    /* Overall page style */
+    body {
+      font-family: Arial, Helvetica, sans-serif; /* clean sans-serif font */
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;               /* dark gray text for easy reading */
+      background: #FFF;          /* white background for contrast */
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1em 1.5em;
+    }
+
+    /* Header (Name and Contact) */
+    header {
+      text-align: center;        /* center-align header content (name & contact) */
+      margin-bottom: 2em;        /* space after header */
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0.2em 0 0.1em 0;   /* small margin around name */
+    }
+    header address {
+      font-style: normal;        /* override default italic to keep text consistent */
+      font-size: 1em;
+    }
+    header address a {
+      color: #0066cc;            /* link color for email (a shade of blue) */
+      text-decoration: none;     /* remove underline for a cleaner look */
+    }
+    header address a:hover {
+      text-decoration: underline;/* underline email on hover to show it's clickable */
+    }
+
+    /* Section headings */
+    h2 {
+      font-size: 1.4em;
+      color: #000;               /* black for section headings */
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.2em;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Content inside sections */
+    section p {
+      margin: 0.5em 0;
+    }
+
+    /* Lists for items (ul) */
+    ul {
+      padding-left: 1.2em;       /* indent list items slightly */
+      margin: 0.5em 0;
+    }
+    li {
+      margin: 0.3em 0;           /* a bit of vertical spacing between list items */
+    }
+
+    .profile-photo {
+    width: 350px; /* a bit wider to see clearly */
+    height: auto;
+    border-radius: 8px; /* slight rounding for modern style, optional */
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow for depth, optional */
+
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pic1.png" alt="Yuang Zhou" class="profile-photo">
+    <h1>Yuang Zhou</h1>
+    <address>Piscataway, New Jersey &bull;
+      <a href="mailto:yuang.zhou@outlook.com">yuang.zhou@outlook.com</a>
+    </address>
+  </header>
+
+  <main>
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>B.S. in Electrical &amp; Computer Engineering</strong>,  
+         <strong>B.S. in Mathematics</strong> &ndash; Rutgers University  
+         (Expected May 2028)</p>
+      <p><strong>GPA:</strong> 4.00 / 4.00</p>
+      <p><strong>Relevant Courses:</strong> Honors Calculus IV, Intro to Linear Algebra,  
+         Data Structures, Computer Architecture, Intro to Discrete Structures I</p>
+    </section>
+
+    <!-- Research & Innovation Section -->
+    <section id="research">
+      <h2>Research &amp; Innovation</h2>
+      <ul>
+        <li><strong>Rutgers University Math Dept:</strong> Tensor analysis in 6D spacetime <em>(Oct 2024 – May 2025)</em></li>
+        <li><strong>Pioneer Academics Research Program:</strong> Extended Zeckendorf’s Theorem to Tribonacci sequences <em>(Feb – Jul 2023)</em></li>
+      </ul>
+    </section>
+
+    <!-- Leadership & Involvement Section -->
+    <section id="leadership">
+      <h2>Leadership &amp; Involvement</h2>
+      <ul>
+        <li><strong>RUCP:</strong> Active Member</li>
+        <li><strong>Rutgers AI Club:</strong> Member</li>
+        <li><strong>RHA (Residence Hall Association):</strong> Board Member</li>
+        <li><strong>HackRU Hackathons (Fall 2024, Spring 2025):</strong> Developed web apps using Streamlit, SQLite, Tailwind CSS, and semantic search</li>
+      </ul>
+    </section>
+
+    <!-- Volunteer Work & Community Engagement Section -->
+    <section id="volunteering">
+      <h2>Volunteer Work &amp; Community Engagement</h2>
+      <ul>
+        <li>First UMC of Kalamazoo – New Year’s Festival volunteer <em>(Dec 2024)</em></li>
+        <li>Peer Mentoring in Math &amp; Programming <em>(2021 – Present)</em></li>
+      </ul>
+    </section>
+
+    <!-- Awards & Recognitions Section -->
+    <section id="awards">
+      <h2>Awards &amp; Recognitions</h2>
+      <ul>
+        <li>Dean’s List <em>(Fall 2024, Spring 2025)</em></li>
+        <li>NRHH (National Residence Hall Honorary) Inductee <em>(Oct 2024)</em></li>
+        <li>Putnam Mathematical Competition – Ranked 404th <em>(Dec 2024)</em></li>
+        <li>Physics Unlimited Premier Competition – Ranked 79th globally <em>(Nov 2022)</em></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
